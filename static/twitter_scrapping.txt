@@ -1,0 +1,33 @@
+Is it legal to scrape twitter?
+
+From the research i got to summarize that, Yes it is legal to scrape data available on twitter. For analysis and understanding the market trend you can 
+scrape twitter data. Lots of people has already demanded and crawled and scrapped Twitter data for sentiment analysis.
+
+How do/can I scrape my twitter data?
+To extract data from Twitter, we can use an automated web scraping tool and API like Octoparse and Tweetpy
+. As Octoparse simulates human interaction with a webpage, it allows you to pull all the information you see on any website, such as Twitter.
+and Tweetpy API allows users/anyone to crawl and scrape twitter data based on user's needs.
+
+How do/can we srape twitter for sentiment analysis?
+Tweet Data Extracted in the Scraper Enter “Kathmandu
+at the Parameter field to tell the crawler the keyword. 
+Just as simple as it seemed, we can get more than 
+  about 10k tweets or available tweets
+
+. You can scrape as many tweets as possible. After getting the tweets, export the data as a text file, name the file as “data.
+
+Reference: https://quick-adviser.com/is-it-legal-to-scrape-twitter/ 
+
+
+
+How to Scrape Tweets From Twitter using 
+Tweepy
+
+From the research what i get to summarize,
+Before we get to the actual scraping it is important to understand what both of these libraries offer, so let’s breakdown the differences between
+ the two to help you decide which one to use.
+Tweepy is a Python library for accessing the Twitter API. There are several different types and levels of API access that Tweepy offers,
+ but those are for very specific use cases. Tweepy is able to accomplish various tasks beyond just querying tweets . 
+For the sake of relevancy, we will only focus on using this API to scrape tweets.
+
+Reference: https://towardsdatascience.com/how-to-scrape-tweets-from-twitter-59287e20f0f1 

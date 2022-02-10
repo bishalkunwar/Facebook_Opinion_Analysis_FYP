@@ -1,0 +1,32 @@
+title page
+Abstract pagge
+Acknowledgement page
+Approval page
+Declaration Page
+Lists of tables
+Lists of figures
+Lists of Abbreviations
+
+Chapter 1.
+
+Fonts times new roman and size 12 heading 14, single line spacing. alignment justify
+margin top 2 cm right 2 cm left 4cm buttom 2cm.
+
+1.1 Introduction
+1.2 Problem Statements
+
+
+
+References
+References: In APA format no bullets and numberings.
+
+10journals + 15 references=total 25 referencess
+including 5 youtube videos, 5 article papers related to project, 
+
+
+
+Appendix
+
+
+
+Apply footer on butoom left whereas footer font size shoule be 1cm. and 8pixel

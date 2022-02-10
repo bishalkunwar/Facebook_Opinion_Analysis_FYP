@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+<body>
+
+    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+    <script>
+        var xValues = ["Positive", "Negetive", "Neutral"];
+        // var yValues = [positive, negetive, neutral] //data returned from the sentiment app.
+        var yValues = [55, 49, 44];
+        var barColors = [
+            "rgb(230, 9, 101)",
+            "rgb(249, 72, 146)",
+            "rgb(255, 161, 201)",
+        ];
+
+        new Chart("myChart", {
+            type: "pie",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                }]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: "Congratulations, You now gets your Expected Analysed Output Data."
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>

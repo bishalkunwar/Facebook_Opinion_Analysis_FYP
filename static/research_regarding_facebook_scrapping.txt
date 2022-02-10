@@ -1,0 +1,36 @@
+Results and Outcomes Summarized from the research regarding facebook data crawling and scrapping (public data for the public purpose):
+
+As i Researched through the robots.txt file, Actually Facebook disallows any scrapper.
+	From the research i got to conclude that, Facebook prohibits all automated scrapers. That is, no part of the Facebook website parts and functionalities should be visited by an automated crawler.
+
+Regarding Technical Possiblities, the only legal way to collect data from Facebook with a crawler is to obtain a prior written permission
+	Facebook warns at the very beginning of their robots file: "Crawling Facebook is prohibited unless you have express written permission." and even with the granted permission 
+there are setted the restrictions from facebook mentioning that 
+"As the social media giant, Facebook has money, time and a dedicated legal team. If you proceed with scraping Facebook by ignoring their Automated Data Collection Terms, that’s OK, but just be warned that they have been reminded you to at least obtain "written permission". Sometimes they could be quite aggressive towards illegitimate scraping. "
+
+
+After GDPR in force, however, there’s more chance to get sued if you’re trying to scrape personal data only but not any other data besides personal data. But stated that It is risky.
+
+Apart from the legal ramifications, you could find that it may get harder to retrieve the desired data on a regular basis, as Facebook block suspicious IPs, and could even implement harder blocking mechanisms in the future, which may make scraping data from the site totally impossible.
+ 
+
+Four Possible data sources alternative to Facebook
+Twitter, Reddit, VKontakte (VK), Instagram.
+
+Reference: https://www.octoparse.com/blog/5-things-you-need-to-know-before-scraping-data-from-facebook# 
+
+
+Research Summary from the MetaForDevelopers:
+Features are authorization mechanisms that allow apps to access specific types of data through our various APIs. In this way they are similar to Permissions, however Features cannot be granted to an app by an app user. Instead, Features are active or inactive depending on the app user's relationship to the app and the app's mode when it is being used.
+
+For apps in Development Mode, all Features except for Page Public Content Access and Page Public Metadata Access are active for any app user who has a Role on the app or a Role in a Business that has claimed the app.
+
+For apps in Live Mode, only Features approved through App Review are active for app users. This also applies to app user who have a Role on the app or Business.
+
+For Business apps (which have access levels instead of modes), Features are active for any app users who have a Role on the app or in a Business that has claimed the app, unless access has been removed. In order for a Feature to be active for app users without a Role on the app or Business, it must first be approved through App Review.
+
+Access to any Feature that is granted by default or through App Review can be used to request analytics insights to improve your app and for marketing or advertising purposes, through the use of aggregated and de-identified or anonymized information (provided such data cannot be re-identified).
+
+
+
+Reference : https://developers.facebook.com/docs/graph-api/overview 
